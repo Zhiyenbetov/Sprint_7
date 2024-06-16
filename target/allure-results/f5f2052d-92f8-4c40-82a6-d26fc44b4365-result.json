@@ -1,0 +1,89 @@
+{
+  "uuid": "f5f2052d-92f8-4c40-82a6-d26fc44b4365",
+  "historyId": "39ebb46cf6ae44986b921ef29360cf26",
+  "fullName": "CreateCourierTest.createCourierSuccessTestWCode",
+  "labels": [
+    {
+      "name": "package",
+      "value": ""
+    },
+    {
+      "name": "testClass",
+      "value": "CreateCourierTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "createCourierSuccessTestWCode"
+    },
+    {
+      "name": "suite",
+      "value": "CreateCourierTest"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Pro-Kaspi.local"
+    },
+    {
+      "name": "thread",
+      "value": "9025@MacBook-Pro-Kaspi.local.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit4"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "createCourierSuccessTestWCode",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Opening the web site",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718385249038,
+      "stop": 1718385249038
+    },
+    {
+      "name": "Send GET request to /api/v1/courier",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "json",
+          "value": "CreateCourierSerialized@38e6dab2"
+        }
+      ],
+      "start": 1718385249049,
+      "stop": 1718385249224
+    },
+    {
+      "name": "check status of /api/v1/courier",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "response",
+          "value": "io.restassured.internal.RestAssuredResponseImpl@3df88e84"
+        }
+      ],
+      "start": 1718385249224,
+      "stop": 1718385249225
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1718385249038,
+  "stop": 1718385249225
+}
